@@ -1,0 +1,144 @@
+/*!
+ * Bootstrap v2.2.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+ table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+  }
+  .table th {
+    font-weight: bold;
+  }
+  
+  
+  .table-condensed th,
+  .table-condensed td {
+    padding: 4px 5px;
+  }
+  .table-bordered {
+    border: 1px solid #dddddd;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-left: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border-left: 1px solid #dddddd;
+  }
+  .table-bordered thead:first-child tr:first-child th,
+  .table-bordered tbody:first-child tr:first-child th{
+    border-top: 0;
+  }
+  .table-bordered thead:first-child tr:first-child > th:first-child,
+  .table-bordered tbody:first-child tr:first-child > td:first-child {
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+  }
+  
+  
+  
+  
+  .navcourse {
+    margin-left: 0;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  .navcourse > li > a {
+    display: block;
+  }
+  
+  
+  
+  
+  .navcourse-tabs:before,
+  .navcourse-tabs:after
+   {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  
+  .navcourse-tabs:after{
+    clear: both;
+  }
+  .navcourse-tabs > li {
+    float: left;
+  }
+  .navcourse-tabs > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+  }
+  .navcourse-tabs {
+    border-bottom: 1px solid #ddd;
+  }
+  .navcourse-tabs > li {
+    margin-bottom: -1px;
+  }
+  .navcourse-tabs > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+  }
+  .navcourse-tabs > li > a:hover {
+    border-color: #eeeeee #eeeeee #dddddd;
+  }
+  .navcourse-tabs > .active > a,
+  .navcourse-tabs > .active > a:hover {
+    color: #bbbbbb;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+  }
+  
+  
+  
+  
+  .tab-courses > .tab-pane {
+    display: none;
+  }
+  .tab-courses > .active {
+    display: block;
+  }
+  
+  
+  .navcourse > .disabled > a {
+    color: #dfdfdf;
+  }
+  .navcourse > .disabled > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: default;
+  }

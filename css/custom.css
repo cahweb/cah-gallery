@@ -1,0 +1,8 @@
+/* CSS Document */
+
+.container:before, .container:after {
+    content: " ";
+}
+.container:before, .container:after {
+    content: " ";
+}

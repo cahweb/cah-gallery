@@ -1,0 +1,32 @@
+/*
+ Theme Name:   Art Gallery
+ Theme URI:    http://example.com
+ Description:  Gallery Theme
+ Author:       Matt Dunn, Chris Nastovski
+ Author URI:   http://example.com
+ Template:     tbone
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  gallery
+*/
+/*@import url("css/style.css");*/
+/*@import url("../../../tbone/library/css/style.css");*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+div#sidebar1 {
+	border-right:1px dotted black;
+}
+
+.btn-invert {
+background-color:#000!important;
+font-weight:bold!important;
+color:#fff!important;
+font-size:115%!important;
+margin-top:15px!important;
+margin-bottom:15px!important;
+}
+.btn-invert:hover {
+color:#ffc904!important;
+}
